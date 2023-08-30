@@ -121,6 +121,15 @@ const About = () => {
           </Col>
         </Row>
       </Container>
+      <li>
+    <a
+      href="https://rajveersidhu.vercel.app"
+      target="_blank"
+      rel="noreferrer"
+    >
+      My old portfolio
+    </a>
+  </li>
     </Container>
   );
 };
