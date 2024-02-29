@@ -30,11 +30,11 @@ const ProjectCard = (props) => {
             style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
-            {"Demo"}
+            {"Go to Website"}
           </Button>
         )}
       </Card.Body>
     </Card>
   );
-}
+};
 export default ProjectCard;

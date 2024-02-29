@@ -8,8 +8,10 @@ import pdf_fusion from "../assets/projects/pdf-fusion.png";
 import SmartNoteBook from "../assets/projects/smartnotebook.png";
 import sidhucoachingcenter from "../assets/projects/sidhucoahingcenter.png";
 import currency from "../assets/projects/currency.png";
-import SportsMeetGndec from '../assets/projects/sportsGndec.png'
-import zealnet from '../assets/projects/zealnet.png'
+import SportsMeetGndec from "../assets/projects/sportsGndec.png";
+import zealnet from "../assets/projects/zealnet.png";
+import suvidhaFoundation from "../assets/projects/suvidhaFoundation.png";
+import proctoredExam from "../assets/projects/proctoredExam.png";
 const Projects = () => {
   return (
     <Container fluid className="project-section">
@@ -22,13 +24,37 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={SportsMeetGndec}
               isBlog={false}
-              title="SportsMeetApp"
+              title="Athletix App"
               description="Presenting the Sports Meet application, available on both the web and Android platforms for GNDEC. This app allows students to register for various events. Prior to enrolling in any event, individuals are required to create an account, verify their credentials, and provide academic information. Once this process is complete, they can proceed to enroll in their desired events. A noteworthy feature of this app is the ability for students to download event participation certificates"
-              demoLink="https://sports2024.vercel.app/"
+              demoLink="https://info.gndecathletix.games/"
+              ghLink="https://github.com/Rajveer810214/sportsMeet-Backend-2024-"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suvidhaFoundation}
+              isBlog={false}
+              title="Offer Letter Generation"
+              description="In the one-month internship at Suvidha Foundation, I delivered a project that automatically generates offer letters. In this application, students register and apply for the internship. Subsequently, the admin reviews the internship requests, and the requests are displayed for approval or rejection. If the admin approves the internship, the user can download the offer letter. The admin also has the capability to update user details. Charts are implemented to show the number of students currently doing an internship and the count of pending requests. The frontend is hosted on Vercel, and the backend is on Render."
+              demoLink="https://offerletter-theta.vercel.app/"
+              ghLink="https://github.com/Rajveer810214/Suvidha-frontend"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={proctoredExam}
+              isBlog={false}
+              title="proctored exam tool"
+              description="Introducing a proctored exam tool with advanced features: cheat prevention,
+              window/tab restriction, and face detection. Seamlessly integrates with
+              online meetings, and allows administrators to actively supervise for a secure
+              exam environment."
+              // demoLink="https://innosprint.vercel.app/"
+              ghLink="https://github.com/Vansh1190/innosprint"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -38,7 +64,7 @@ const Projects = () => {
               title="SmartNoteBook"
               description="Introducing SmartNook: the ultimate productivity companion that revolutionizes note-taking! Capture, organize, and access digital notes effortlessly, transforming your productivity and organization. Seamlessly manage notes: Create, edit, and organize with ease. Say goodbye to scattered files, hello to a centralized hub. Tag-based categorization: Stay organized effortlessly with customizable tags. Easily find what you need. Secure and private: Robust security measures ensure data privacy.. Responsive and user-friendly: Access SmartNook across devices. Optimal note-taking experience, anywhere."
               demoLink="http://smartnotebook.vercel.app/"
-            ghLink = "https://github.com/Rajveer810214/smartNotebook_frontend"
+              ghLink="https://github.com/Rajveer810214/smartNotebook_frontend"
             />
           </Col>
 
@@ -83,7 +109,7 @@ const Projects = () => {
               
               "
               demoLink="https://markdowneditor-lemon.vercel.app/"
-              ghLink = "https://github.com/Rajveer810214/Markdown-Editor"
+              ghLink="https://github.com/Rajveer810214/Markdown-Editor"
             />
           </Col>
 
@@ -121,7 +147,7 @@ const Projects = () => {
         </Row>
       </Container>
     </Container>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

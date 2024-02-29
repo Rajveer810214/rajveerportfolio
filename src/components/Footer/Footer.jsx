@@ -15,6 +15,7 @@ const Footer = () => {
         <Row>
           <Col md="4" className="footer-copywright">
             <span>Dedicated to creating impactful solutions!</span>
+            
           </Col>
           <Col md="4" className="footer-copywright">
             <span>Copyright © {year}</span>
@@ -70,6 +71,7 @@ const Footer = () => {
             </ul>
           </Col>
         </Row>
+     
       </Container>
     );  
 }
